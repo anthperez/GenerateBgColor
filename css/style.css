@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    border: 2px solid black;
+    background-color:wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p{
+    font-size: 32px;
+}
+
+button{
+    font-size: 30px;
+    background-color:lightcoral;
+    color: black;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: lightpink;
+}
+
+@media screen and (min-width: 322px){
+    p{
+        font-size: 40px;
+    }
+    button{
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 376px){
+    p{
+        font-size: 46px;
+    }
+    button{
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 426px){
+    p{
+        font-size: 54px;
+    }
+    button{
+        font-size: 52px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    p{
+        font-size: 68px;
+    }
+    button{
+        font-size: 66px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    p{
+        font-size: 74px;
+    }
+    button{
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1441px){
+    p{
+        font-size: 86px;
+    }
+    button{
+        font-size: 82px;
+    }
+}
